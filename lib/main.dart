@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
           title: const Text(
             "this is the app2",
             style: TextStyle(
-              color: Colors.deepPurpleAccent,
+              color: Colors.blueAccent,
               fontFamily: 'ftr',
             ),
           ),
