@@ -22,13 +22,8 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: const Center(
-          child: Text(
-            "hello guys",
-            style: TextStyle(
-              fontSize: 30,
-              color: Colors.yellow,
-              fontFamily: 'ftr',
-            ),
+          child: Image(
+            image: AssetImage('./images/r1.jpeg'),
           ),
         ),
         floatingActionButton: FloatingActionButton(
